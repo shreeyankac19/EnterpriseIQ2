@@ -4,8 +4,8 @@ WORKDIR /app
 
 # Copy package manifests
 COPY package.json ./
-COPY server/package.json ./server/
-COPY client/package.json ./client/
+COPY server/package*.json ./server/
+COPY client/package*.json ./client/
 
 # Install dependencies
 RUN npm --prefix server install
