@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build artifacts
+dist/
+*/dist/
+.vite/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+!server/.env.example
+
+# Runtime SQLite databases (seeded automatically on startup)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Dynamic User Uploads (seed files are preserved in server/seed-files/)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.user

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: enterpriseiq
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: starter
+    region: oregon
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /data
+      - key: GEMINI_API_KEY
+        sync: false
+    disk:
+      name: enterpriseiq-data
+      mountPath: /data
+      sizeGB: 1

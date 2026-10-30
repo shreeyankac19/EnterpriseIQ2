@@ -1,0 +1,24 @@
+{
+  "name": "enterprise-iq",
+  "version": "1.0.0",
+  "description": "EnterpriseIQ – AI-Powered Enterprise Knowledge Management System",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "start": "node server/dist/index.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "enterprise-knowledge-management",
+    "rag",
+    "ai-assistant",
+    "react",
+    "vite",
+    "typescript",
+    "sqlite",
+    "tailwind-css"
+  ],
+  "author": "EnterpriseIQ Team",
+  "license": "MIT"
+}

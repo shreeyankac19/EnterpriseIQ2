@@ -1,0 +1,11 @@
+Ticket ID,Customer Account,Product Tier,Issue Category,Resolution Time (Hrs),CSAT Score (1-5),Agent Name,Customer Feedback
+TCK-8001,Acme Global Financial,Enterprise Platinum,API Integration,2.4,5,Jessica Wong,Outstanding response time and flawless technical guidance.
+TCK-8002,Beacon Health Systems,Enterprise Gold,Single Sign-On (SSO),1.1,5,David Miller,Okta federation was restored in under an hour.
+TCK-8003,Crestview Logistics,Business Plus,CSV Export Format,4.8,4,Sara Conner,"Helpful explanation, automated script resolved our report sync."
+TCK-8004,Delta Vanguard Media,Enterprise Platinum,Latency Spike,0.8,5,David Miller,Engineering resolved the Kubernetes autoscaling bottleneck rapidly.
+TCK-8005,Echo Capital Partners,Business Standard,Billing & Invoice Clarification,6.2,3,Jessica Wong,Billing query took a little longer than expected to reconcile.
+TCK-8006,Falcon Aerospace,Enterprise Platinum,Audit Log Export,1.5,5,Marcus Brody,Fast delivery of compliance records for external auditor.
+TCK-8007,Genesis Retail Group,Business Plus,Role Permissions Config,2.0,5,Sara Conner,Clear walkthrough on setting up Manager vs Employee roles.
+TCK-8008,Horizon Robotics,Enterprise Platinum,Webhook Delivery Failure,3.1,4,David Miller,"Root cause identified as customer firewall timeout, resolved."
+TCK-8009,Ironclad Insurance,Enterprise Gold,Data Retention Policy,2.5,5,Jessica Wong,Provided clear documentation on 7-year regulatory compliance retention.
+TCK-8010,Jupiter BioTech,Business Standard,Password Reset Loop,0.5,5,Sara Conner,Quickest turnaround I have seen. Thank you!
